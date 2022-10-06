@@ -1,0 +1,14 @@
+﻿using EmployeeWageComputationProblem2;
+Console.WriteLine("Welcome To Employee Wage Computation Program");
+EmployeeCheck Employee = new EmployeeCheck();
+Employee.CheckAttendance();
+DailyEmployeeWage dailyEmployee = new DailyEmployeeWage();
+dailyEmployee.CheckDailyWage();
+PartTimeEmpWage partTimeWage = new PartTimeEmpWage();
+partTimeWage.EmpWagePartTime();
+SwitchCaseStatement switchCaseStatement = new SwitchCaseStatement();
+switchCaseStatement.EmployeeWage();
+WagesForMonth employeeMonth = new WagesForMonth();
+employeeMonth.MonthlyWage();
+CalculateTotalWage calculateTotalWage = new CalculateTotalWage();
+calculateTotalWage.CalculateMonthlyWage();
